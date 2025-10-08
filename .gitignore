@@ -1,0 +1,35 @@
+# Операционная система
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+.DS_Store
+.idea
+
+.venv/
+env/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+.env
+.env.local
+.env.production
+config/settings_local.py  # Если используешь локальные настройки
+
+
+staticfiles/
+
+celerybeat-schedule
+celerybeat.pid
+
+*.db
+docker-compose.override.yml
